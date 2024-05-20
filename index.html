@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <!-- <link rel="icon" type="image/svg+xml" href="/vite.svg" /> -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" />
+  <link rel="stylesheet" href="/style.css" />
+  <title>PokeApi</title>
+</head>
+
+<body>
+  <!-- Box del search -->
+  <div class="search-box">
+    <h1 class="search-title">PokeApi</h1>
+    <form id="form">
+      <button type="submit">
+        <i class="fa-solid fa-magnifying-glass"></i>
+      </button>
+      <input type="text" name="city" autocomplete="off" placeholder="Id Pokemon" class="search-input" />
+    </form>
+  </div>
+
+  <!-- Card del pokemon -->
+  <div class="card">
+    <div class="titulo-card">
+      <h2>Nombre Pokemon</h2>
+    </div>
+    <div class="image-container">
+      <img src="/img/pokemon-prueba.jpg" alt="" />
+    </div>
+    <div class="card-info">
+      <ul>
+        <li>Altura: altura del pokemon</li>
+        <li>Peso: Peso del pokemon</li>
+        <li>Tipo: tipo de pokemon</li>
+      </ul>
+    </div>
+  </div>
+  <script type="module" src="/main.js"></script>
+</body>
+
+</html>
