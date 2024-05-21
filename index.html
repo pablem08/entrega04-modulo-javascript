@@ -11,9 +11,14 @@
 </head>
 
 <body>
+
+  <!-- Header -->
+  <header>
+    <img src="/img/titulo.png" alt="titulo" class="titulo-header">
+  </header>
   <!-- Box del search -->
   <div class="search-box">
-    <h1 class="search-title">PokeApi</h1>
+    <!-- <h1 class="search-title">PokeApi</h1> -->
     <form id="form">
       <button type="submit">
         <i class="fa-solid fa-magnifying-glass"></i>
@@ -21,6 +26,10 @@
       <input type="text" name="city" autocomplete="off" placeholder="Id Pokemon" class="search-input" />
     </form>
   </div>
+
+  <!-- Mensaje de error -->
+  <p class="search-msg">Ingrese un id de pokemon...</p>
+
 
   <!-- Card del pokemon -->
   <div class="container">
@@ -40,6 +49,7 @@
       </div>
     </div> -->
   </div>
+  <script src="request.js"></script>
   <script type="module" src="/main.js"></script>
 </body>
 
